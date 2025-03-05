@@ -1,0 +1,12 @@
+app:
+  hello:
+    greeting: Hello
+
+logging:
+  level:
+    root: off
+
+spring:
+  sql:
+    init:
+      mode: never

@@ -1,0 +1,12 @@
+app:
+  hello:
+    greeting: Ahoj
+  current-account:
+    transaction:
+      get-latest-current-account-transactions-max-record-count: 20
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:fmfi
+  jpa:
+    defer-datasource-initialization: true
