@@ -1,6 +1,11 @@
 app:
   hello:
     greeting: Hello
+  integration:
+    fees:
+      base-uri: http://localhost:1080
+      username: dummy
+      password: dummy
 
 logging:
   level:
